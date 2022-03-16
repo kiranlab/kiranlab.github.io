@@ -1,0 +1,169 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(208, 251, 250, 0.8);
+	background-size:2000px;
+	background-repeat:no-repeat ;
+}
+header{
+	position: fixed;
+	font-family: Corbel;
+	font-size: 35px;
+	background: linear-gradient(rgba(12, 148, 143, 1.0), rgba(144, 239, 236, 1.0));
+	color: rgba(255,255,255, 1.0);
+	font-weight: lighter;
+	padding: 0.5% 1% 0.5% 1%;
+	width: 100%;
+}
+header nav{
+	position: fixed;
+	display: inline-block;
+	margin-left: 66%;
+}
+header nav a{
+	font-size: 27px;
+	text-decoration: none;
+	color: inherit;
+	margin-right: 10px;
+	transition-property:color;
+	transition-timing-function: linear;
+	transition-duration: .2s;
+	transition-delay: .2s;
+}
+header nav a:hover{
+	color: rgba(0, 0, 0, 1.0);
+}
+.current{
+	color: rgba(0, 0, 0, 1.0);
+}
+img{
+	width: 100%;
+}
+.card{
+	width: 40%;
+	font-size:xx-large;
+	font-family: Corbel;
+	font-weight: lighter;
+	background: linear-gradient(rgba(12, 148, 143, 1.0), rgba(144, 239, 236, 1.0));
+	border-radius: 10px;
+}
+.card ul{
+	text-align: center;
+}
+.card li{
+	text-align: left;
+	text-decoration: none;
+	list-style: none;
+	color:rgba(0, 0, 0, 1.0);
+}
+span{
+	font-family: Corbel;
+	font-weight: lighter;
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 1.0);
+}
+.imgcard{
+	width: 10%;
+}
+#nav2{
+	display: none;
+}
+#hidden{
+	display: none;
+}
+.number{
+	color: rgba(0, 0, 0, 1.0);
+	text-decoration: none;
+	font-family: sans-serif;
+}
+hr{
+	color: rgba(0, 0, 0,0.2);
+}
+.caption{
+	font-weight: lighter;
+	font-family: DejaVu Sans;
+	color: rgba(0, 0, 0, 0.7);
+}
+.price{
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+table{
+	display: inline-block;
+	text-align: left;
+}
+.package{
+	/*width: 25%;*/
+	font-size:x-large;
+	font-family: Corbel;
+	font-weight: lighter;
+	background: linear-gradient(rgba(12, 148, 143, 1.0), rgba(144, 239, 236, 1.0));
+	border-radius: 10px;
+}
+h1{
+	font-family: Corbel;
+	color: rgba(255,255,255, 1.0);
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 50px;
+	display: inline-block;
+}
+.services{
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+p{
+	font-size: xx-large;
+	font-weight: lighter;
+	font-family: Corbel;
+	text-align: left;
+	width: 60%;
+
+}
+h2{
+	font-family: Corbel;
+	font-weight: lighter;
+	font-size: xx-large;
+	text-decoration: underline;
+}
+.logo{
+	width: 10%;
+}
+@media screen and (max-width: 600px){
+	header{
+		text-align: center;
+	}
+	header nav{
+		display: none;
+	}
+	.card{
+		width: 100%;
+		border-radius: 0px;
+	}
+	#hidden{
+		display: inline-block;
+		text-decoration: none;
+		background:transparent;
+		border: none;
+		float: right;
+		transform: scale(3) translate(-10px,3px);
+
+	}
+	#nav2 a{
+		font-size: 25px;
+		text-decoration: none;
+		color: inherit;
+	}
+	#nav2{
+		text-align: center;
+		list-style-type: none;
+		margin-right: 20px;
+
+	}
+	.imgcard{
+		width: 50%;
+	}
+
+
+
+}
